@@ -1,6 +1,6 @@
 FROM continuumio/miniconda3
 
-LABEL repo2docker.ref="test"
+LABEL repo2docker.ref="master"
 LABEL repo2docker.repo="https://github.com/dongchirua/template-docker"
 LABEL repo2docker.version="2021.03.0+70.g43891a6"
 LABEL tljh_repo2docker.mem_limit="2G"

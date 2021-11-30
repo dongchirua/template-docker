@@ -1,0 +1,6 @@
+vim
+htop
+curl
+telnet
+postgresql-client
+redis-tools

@@ -1,0 +1,17 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9.*
+  - nodejs=16
+  - pip
+  - ipywidgets
+  - jupyter-offlinenotebook
+  - jupyter-resource-usage
+  - jupyterlab
+  - jupyterhub-singleuser
+    # Newer versions require python 3.7
+  - nbconvert
+    # 6.4.0 conda package requires python 3.7
+  - notebook
+  - nteract_on_jupyter
+  

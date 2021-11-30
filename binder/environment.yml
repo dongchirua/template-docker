@@ -1,10 +1,6 @@
-name: plasmabio-template-python
-# channels priority
-# see https://bioconda.github.io/
-# conda-forge has highest prioriy
+name: workplace
 channels:
   - defaults
-  - bioconda
   - conda-forge
 dependencies:
   - python>=3.8
@@ -16,3 +12,8 @@ dependencies:
   - nodejs
   - nbresuse
   - psutil
+  - r-irkernel
+  - r-base>=4
+  - r-tidyverse
+  - pip:
+    - postgres_kernel

@@ -1,6 +1,11 @@
+sudo pip install postgres_kernel
+
 jupyter labextension install \
   @jupyter-widgets/jupyterlab-manager \
   jupyterlab-topbar-extension \
   jupyterlab-system-monitor \
   jupyterlab-topbar-text
   
+# Install R package
+# if not available as conda package
+R -e "install.packages('diagram', repos='http://cran.rstudio.com/')"
